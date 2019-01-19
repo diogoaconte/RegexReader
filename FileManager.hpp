@@ -7,7 +7,6 @@
 #include <regex>
 #include <list>
 #include <iostream>
-#include <libconfig.h>
 
 using namespace std;
 
