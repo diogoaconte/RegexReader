@@ -1,0 +1,14 @@
+To compile this program, make sure to have installed gcc7 in Ubuntu.
+To do so, run below commands in shell: 
+
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install gcc-7 g++-7
+gcc-7 --version
+
+
+After verifying the correct installation, go to project folder and run:
+
+g++-7 ThalesIFE.cpp Watchdog.cpp NameAnalyzer.cpp FileManager.cpp Configuration.cpp -o ThalesIFE
+
+
