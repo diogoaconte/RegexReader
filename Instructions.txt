@@ -7,8 +7,16 @@ sudo apt-get install gcc-7 g++-7
 gcc-7 --version
 
 
+COMPILATION
 After verifying the correct installation, go to project folder and run:
-
 g++-7 ThalesIFE.cpp Watchdog.cpp NameAnalyzer.cpp FileManager.cpp Configuration.cpp -o ThalesIFE
+
+or, alternatively, go to project folder and run:
+chmod +x compileThalesIFE.sh
+./compileThalesIFE.sh
+
+EXECUTION
+Go to project folder and run:
+./ThalesIFE
 
 
